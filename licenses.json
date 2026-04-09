@@ -1,6 +1,21 @@
 {
-    "ABC123-UUID": {
-        "active": true,
-        "expires_at": "2026-05-01"
-    }
+  "VALID-OK": {
+    "active": true,
+    "expires_at": "2099-12-31"
+  },
+  "INACTIVE-LICENSE": {
+    "active": false,
+    "expires_at": "2099-12-31"
+  },
+  "MISSING-EXPIRATION": {
+    "active": true
+  },
+  "INVALID-EXPIRATION": {
+    "active": true,
+    "expires_at": "31-12-2099"
+  },
+  "EXPIRED-LICENSE": {
+    "active": true,
+    "expires_at": "2020-01-01"
+  }
 }
